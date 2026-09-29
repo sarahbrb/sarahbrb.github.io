@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ✏️ À MODIFIER : ton nom -->
-    <title>Sarah Bouaraba | Page académique</title>
-    <meta name="description" content="Sarah Bouaraba — recherche en traitement automatique du langage et IA pour la santé.">
+    <!-- ✏️ EDIT: your name -->
+    <title>Sarah Bouaraba | Academic Homepage</title>
+    <meta name="description" content="Sarah Bouaraba — research in natural language processing and AI for healthcare.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
     <style>
-        /* Couleurs du site : change --accent pour changer la couleur principale */
+        /* Site colors: change --accent to change the main color */
         :root {
             --bg: #ffffff;
             --surface: #f7f8f9;
@@ -47,7 +47,7 @@
         a { color: var(--accent); text-decoration: none; }
         a:hover { color: var(--accent-hover); text-decoration: underline; }
 
-        /* Barre de navigation */
+        /* Navigation bar */
         header {
             position: sticky; top: 0; z-index: 10;
             background: var(--bg);
@@ -66,7 +66,7 @@
         section { padding-top: 2.5rem; scroll-margin-top: 4rem; }
         section h2 { font-size: 1.6rem; border-bottom: 1px solid var(--line); padding-bottom: 0.4rem; }
 
-        /* Bloc de présentation */
+        /* Intro block */
         .intro { display: flex; gap: 2rem; align-items: flex-start; }
         .intro img {
             width: 180px; height: 180px; object-fit: cover;
@@ -80,7 +80,7 @@
             padding: 0.25rem 0.9rem; font-size: 0.9rem; background: var(--surface);
         }
 
-        /* Listes (publications, expériences, formation) */
+        /* Lists (publications, experience, education) */
         .item { padding: 1rem 0; border-bottom: 1px solid var(--line); }
         .item:last-child { border-bottom: none; }
         .item-head { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
@@ -91,7 +91,7 @@
 
         footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 2rem 1rem; border-top: 1px solid var(--line); }
 
-        /* Téléphone */
+        /* Mobile */
         @media (max-width: 640px) {
             nav .name { display: none; }
             nav ul { gap: 0.9rem; }
@@ -103,36 +103,36 @@
 <body>
     <header>
         <nav>
-            <!-- ✏️ À MODIFIER -->
+            <!-- ✏️ EDIT -->
             <a class="name" href="#">Sarah Bouaraba</a>
             <ul>
-                <li><a href="#about">À propos</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#publications">Publications</a></li>
-                <li><a href="#experience">Expérience</a></li>
-                <li><a href="#education">Formation</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- ================= À PROPOS ================= -->
+        <!-- ================= ABOUT ================= -->
         <section id="about" class="intro">
-            <!-- Mets ta photo dans le même dossier, nommée photo.jpg -->
-            <img src="photo.jpg" alt="Photo de Sarah Bouaraba">
+            <!-- Put your photo in the same folder, named photo.jpg -->
+            <img src="photo.jpg" alt="Photo of Sarah Bouaraba">
             <div>
                 <h1>Sarah Bouaraba</h1>
-                <!-- ✏️ À MODIFIER : ton poste et ton labo -->
-                <p class="role">[Ton poste] · [Ton laboratoire / institution], [Ville]</p>
-                <!-- ✏️ À MODIFIER : ta présentation (2 à 4 phrases) -->
+                <!-- ✏️ EDIT: your position and lab -->
+                <p class="role">[Your position] · [Your lab / institution], [City]</p>
+                <!-- ✏️ EDIT: your introduction (2 to 4 sentences) -->
                 <p>
-                    Je travaille sur les grands modèles de langage (LLM) appliqués au domaine médical,
-                    en particulier la génération de comptes rendus médicaux synthétiques.
-                    [Ajoute ici tes thèmes de recherche, tes objectifs, etc.]
+                    I work on large language models (LLMs) for the medical domain,
+                    with a focus on generating synthetic clinical reports.
+                    [Add your research interests, goals, etc.]
                 </p>
                 <div class="links">
-                    <a href="mailto:sarah.bouaraba.2000@gmail.com">E-mail</a>
-                    <!-- ✏️ Remplace les # par tes liens, ou supprime la ligne -->
-                    <a href="#">LinkedIn</a>
+                    <a href="mailto:sarah.bouaraba.2000@gmail.com">Email</a>
+                    <!-- ✏️ Replace # with your links, or delete the line -->
+                    <a href="https://www.linkedin.com/in/sarah-bouaraba-a8711a202/" target="_blank" rel="noopener">LinkedIn</a>
                     <a href="#">Google Scholar</a>
                     <a href="#">GitHub</a>
                     <!-- <a href="cv.pdf">CV</a> -->
@@ -143,54 +143,54 @@
         <!-- ================= PUBLICATIONS ================= -->
         <section id="publications">
             <h2>Publications</h2>
-            <!-- ✏️ Copie-colle un bloc <div class="item"> par publication -->
+            <!-- ✏️ Copy-paste one <div class="item"> block per publication -->
             <div class="item">
                 <div class="item-head">
-                    <h3>[Titre de l'article]</h3>
+                    <h3>[Paper title]</h3>
                     <span class="date">2026</span>
                 </div>
-                <p class="sub"><strong>S. Bouaraba</strong>, [Co-auteur], [Co-auteur]</p>
-                <p class="sub"><em>[Conférence ou revue]</em> · <a href="#">PDF</a> · <a href="#">Code</a></p>
+                <p class="sub"><strong>S. Bouaraba</strong>, [Co-author], [Co-author]</p>
+                <p class="sub"><em>[Conference or journal]</em> · <a href="#">PDF</a> · <a href="#">Code</a></p>
             </div>
         </section>
 
-        <!-- ================= EXPÉRIENCE ================= -->
+        <!-- ================= EXPERIENCE ================= -->
         <section id="experience">
-            <h2>Expérience</h2>
+            <h2>Experience</h2>
             <div class="item">
                 <div class="item-head">
-                    <h3>[Poste]</h3>
-                    <span class="date">[2025 – aujourd'hui]</span>
+                    <h3>[Position]</h3>
+                    <span class="date">[2025 – present]</span>
                 </div>
-                <p class="sub">[Organisme], [Ville]</p>
-                <p>[Une ou deux phrases sur ce que tu fais.]</p>
+                <p class="sub">[Organization], [City]</p>
+                <p>[One or two sentences about what you do.]</p>
             </div>
             <div class="item">
                 <div class="item-head">
-                    <h3>[Stage / poste précédent]</h3>
+                    <h3>[Internship / previous position]</h3>
                     <span class="date">[2024]</span>
                 </div>
-                <p class="sub">[Organisme], [Ville]</p>
-                <p>[Description courte.]</p>
+                <p class="sub">[Organization], [City]</p>
+                <p>[Short description.]</p>
             </div>
         </section>
 
-        <!-- ================= FORMATION ================= -->
+        <!-- ================= EDUCATION ================= -->
         <section id="education">
-            <h2>Formation</h2>
+            <h2>Education</h2>
             <div class="item">
                 <div class="item-head">
-                    <h3>[Diplôme, ex. Master en Informatique]</h3>
+                    <h3>[Degree, e.g. M.Sc. in Computer Science]</h3>
                     <span class="date">[2022 – 2024]</span>
                 </div>
-                <p class="sub">[Université], [Ville]</p>
+                <p class="sub">[University], [City]</p>
             </div>
             <div class="item">
                 <div class="item-head">
-                    <h3>[Diplôme, ex. Licence]</h3>
+                    <h3>[Degree, e.g. B.Sc. in Computer Science]</h3>
                     <span class="date">[2019 – 2022]</span>
                 </div>
-                <p class="sub">[Université], [Ville]</p>
+                <p class="sub">[University], [City]</p>
             </div>
         </section>
     </main>
@@ -198,3 +198,4 @@
     <footer>© 2026 Sarah Bouaraba</footer>
 </body>
 </html>
+
